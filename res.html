@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/restyle.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" type="images/x-icon" href="/img/image-removebg-preview (1) 1.png">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#logo" class="nav_logo"><img src="/img/image-removebg-preview (1) 2.png" alt="logo"></a>
+        <br>
+        <div class="navbar_nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="faci.html">Facilities</a>
+            <a href="res.html">Reservation</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="hamburger"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    
+    <section class="van">
+        <main class="love">
+            <form id="form" action="/" method="get" class="kotako">
+                <br>
+                <h1 class="pesen">Reservation Form</h1>
+                <br>
+                <p>Name</p>
+                <div id="error"></div>
+                <br>
+                <input id="name" type="text">
+                <br>
+                <br>
+                <p>Phone Number</p>
+                <div id="error3"></div>
+                <br>
+                <input id="phone" type="number">
+                <br>
+                <br>
+                <p>Email</p>
+                <div id="error2"></div>
+                <br>
+                <input id="email" type="text">
+                <br>
+                <br>
+                <p>Check In</p>
+                <div id="error4"></div>
+                <br>
+                <input type="date" value="dd/mm/yyyy" id="tanggal">
+                <br>
+                <br>
+                <p>Room Type</p>
+                <div id="error5"></div>
+                <br>
+                <select id="room">
+                    <option value=""> -- Select Room Type -- </option>
+                    <option value="Luxury">Luxury</option>
+                    <option value="Prime">Prime</option>
+                    <option value="Economy">Economy</option>
+                </select>
+                <br>
+                <br>
+                <button type="submit" class="tombol">Confirm</button>
+            </form>
+        </main>
+
+    </section>
+
+    <footer>
+        <div class="logofoot">
+            <img src="/img/image-removebg-preview (1) 2.png" alt="logo">
+        </div>
+        <div class="follow">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>   
+            <a href="#"><i data-feather="youtube"></i></a> 
+    </div>
+    
+        <div class="pages">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="faci.html">Facilities</a>
+            <a href="res.html">Reservation</a>
+        </div>
+    
+        <div class="credits">
+                <p>Made by <a href="#">Alvin Linardi</a>. | &copy; 2023.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="/script.js"></script>
+</body>
+</html>

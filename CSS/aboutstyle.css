@@ -1,0 +1,88 @@
+:root{
+    --primary: #ffc700;
+    --bg: #ffff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    max-height: 1080px;
+}
+
+body{
+    font-family: 'Mada',sans-serif;
+    background: url("/img/image\ 3.png");
+    background-size: cover;
+    /* min-height: 1080px; */
+}
+
+/* .slamet{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slamet .widodo{
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+} */
+
+/* .slamet .widodo img{
+    margin-top: 10%;
+    margin-left: 37.5%;
+    width: 25vw;
+    height: 30vh;
+} */
+
+.for {
+    margin-top: 20vh;
+    background: rgba(0,0,0,0.5);
+    padding: 0 7% 1.4rem;
+} 
+
+.for h2{
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.for h2 span{
+    color: var(--primary);
+}
+
+.for .baris{
+    display: flex;
+}
+
+.for .baris .gambarfor{
+    flex: 1 1 45rem;
+}
+
+.for .baris .gambarfor img{
+    width: 100%;
+}
+
+.for .baris .isinya{
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.for .baris .isinya P{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    list-style: none;
+    line-height: 1.6;
+    color: white;
+} 
+
+
+
+
